@@ -1,0 +1,70 @@
+<section class="blk-trajetoria" id="trajetoria">
+  <div class="wrap blk-trajetoria__grid">
+    <div class="blk-trajetoria__cab" data-reveal>
+      <p class="blk-trajetoria__eyebrow">A história da casa · desde 2015</p>
+      <h2 class="blk-trajetoria__titulo">De Belém a Florianópolis, em seis passos</h2>
+      <p class="blk-trajetoria__lead" data-acende>O instituto leva o nome de quem o fundou. A trajetória da Dra. Josy Sasaki explica o jeito de atender: formação hospitalar primeiro, estética avançada depois.</p>
+      <figure class="blk-trajetoria__foto"><!--foto:midia/consultorio.jpg|Sala de atendimento do Instituto Josy Sasaki, com maca, bancada de mármore e nichos--></figure>
+    </div>
+    <ol class="blk-trajetoria__linha">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-trajetoria__ico"><!--icone:estrela--></span>
+        <div><h3>Belém, Pará</h3><p>Cresce numa família que valorizava o estudo e, aos 17 anos, entra no curso de medicina da Universidade Federal do Pará.</p></div>
+      </li>
+      <li data-reveal style="--d:80ms">
+        <span class="blk-trajetoria__ico"><!--icone:estetoscopio--></span>
+        <div><h3>Residência em dermatologia</h3><p>Hospital Estadual Infantil Darcy Vargas, em São Paulo. Sai com o título de especialista e com a base hospitalar que ainda orienta a prática clínica.</p></div>
+      </li>
+      <li data-reveal style="--d:160ms">
+        <span class="blk-trajetoria__ico"><!--icone:check--></span>
+        <div><h3>SBD e SBDC</h3><p>Membro da Sociedade Brasileira de Dermatologia e da Sociedade Brasileira de Cirurgia Dermatológica; depois, da Academia Americana de Dermatologia.</p></div>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-trajetoria__ico"><!--icone:microscopio--></span>
+        <div><h3>Mestrado na Unifesp</h3><p>Ciência, Tecnologia e Gestão Aplicadas à Regeneração Tecidual, na Escola Paulista de Medicina, e mais de 80 congressos no Brasil e no exterior.</p></div>
+      </li>
+      <li data-reveal style="--d:320ms">
+        <span class="blk-trajetoria__ico"><!--icone:local--></span>
+        <div><h3>2015</h3><p>Depois de um período em Criciúma, abre o próprio instituto em Florianópolis.</p></div>
+      </li>
+      <li data-reveal style="--d:400ms">
+        <span class="blk-trajetoria__ico"><!--icone:agenda--></span>
+        <div><h3>Hoje</h3><p>Três médicos e equipe de apoio, num endereço novo na Rua Presidente Nereu Ramos, no Centro.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-trajetoria{padding-block:var(--sp-section)}
+.blk-trajetoria__grid{display:grid;gap:var(--sp-5)}
+.blk-trajetoria__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-trajetoria__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-trajetoria__lead{margin:var(--sp-3) 0 0;font-size:1.05rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-trajetoria__foto{margin:var(--sp-4) 0 0;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:3/2}
+.blk-trajetoria__foto img{display:block;width:100%;height:100%;object-fit:cover}
+.blk-trajetoria__linha{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.blk-trajetoria__linha li{
+  display:flex;gap:var(--sp-3);align-items:flex-start;padding-block:var(--sp-3);
+  border-top:1px solid color-mix(in srgb,var(--pulse) 50%,transparent);
+}
+.blk-trajetoria__linha li:last-child{border-bottom:1px solid color-mix(in srgb,var(--pulse) 50%,transparent)}
+.blk-trajetoria__ico{
+  flex:none;display:inline-flex;align-items:center;justify-content:center;
+  width:3rem;height:3rem;border-radius:50%;color:var(--brand);
+  border:1px solid color-mix(in srgb,var(--pulse) 70%,transparent);
+}
+.blk-trajetoria__ico svg{width:1.5rem;height:1.5rem}
+.blk-trajetoria__linha h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.35rem,3vw,1.7rem);line-height:1.1;color:var(--ink)}
+.blk-trajetoria__linha p{margin:.4rem 0 0;line-height:1.55;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:56rem){
+  .blk-trajetoria__grid{grid-template-columns:1fr 1.1fr;gap:var(--sp-6,4rem);align-items:start}
+  .blk-trajetoria__cab{position:sticky;top:6rem}
+}
+</style>

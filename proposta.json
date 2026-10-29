@@ -1,0 +1,358 @@
+{
+  "slug": "josy-sasaki",
+  "negocio": {
+    "nome": "Instituto Josy Sasaki · Dermatologia & Saúde",
+    "logo": "brand/logo.svg",
+    "whatsapp": "5548988266995",
+    "unidades": [
+      {
+        "bairro": "Centro · Florianópolis",
+        "endereco": "Rua Presidente Nereu Ramos, 146, 3º andar – Centro, Florianópolis – SC, 88015-010",
+        "telefone": "(48) 98826-6995"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8A5A44",
+    "brand2": "#6B4332",
+    "ink": "#1D1612",
+    "bg": "#FBF8F4",
+    "pulse": "#BC8A74",
+    "radius": "4px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Poppins",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#equipe"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Centro · Florianópolis",
+        "h1": "Dermatologia de corpo inteiro",
+        "lead": "Face, corpo, cabelo, região íntima e terapias nutricionais injetáveis, com três médicos no mesmo endereço.",
+        "cta": "Agendar consulta",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Ultraformer 3",
+          "CoolSculpting",
+          "Laser Ultra 1927 nm",
+          "Acroma 1064 nm",
+          "Laser íntimo Athena",
+          "Luz intensa pulsada",
+          "T-Sculptor",
+          "Mesoterapia capilar",
+          "Vapor de ozônio",
+          "Microagulhamento",
+          "Terapias nutricionais injetáveis"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Antes de marcar a consulta",
+        "itens": [
+          {
+            "valor": "2015",
+            "rotulo": "o ano em que o instituto abriu"
+          },
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "408",
+            "rotulo": "avaliações de pacientes",
+            "contar": 408
+          },
+          {
+            "valor": "+80",
+            "rotulo": "congressos da Dra. Josy no Brasil e no exterior"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Dermatologia & Saúde",
+        "citacao": "Cinco frentes de cuidado, uma equipe que conversa entre si.",
+        "autor": "Instituto Josy Sasaki",
+        "texto": [
+          "Quem chega ao instituto pode estar atrás de uma consulta de rotina, de um protocolo para o rosto ou de ajuda com a queda de cabelo. As áreas são diferentes, mas o caminho começa igual: uma consulta com dermatologista, que olha o histórico e indica o que faz sentido.",
+          "Com a Dra. Josy, a Dra. Michele e o Dr. Pedro, o paciente não precisa trocar de clínica quando a necessidade muda de região. O rosto, o corpo, o couro cabeludo e a região íntima são cuidados na mesma casa."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "As cinco frentes do instituto",
+        "lead": "Cada região tem os seus protocolos. A consulta define o que entra no seu plano, e em que ordem.",
+        "itens": [
+          {
+            "nome": "Face",
+            "descricao": "Tratamentos para o terço superior e o terço inferior do rosto, indicados depois de avaliar a pele, a expressão e o que incomoda.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Corpo",
+            "descricao": "Pescoço, braços, mãos, unhas, abdome, bumbum, culote e joelho. Gordura localizada e flacidez entram com tecnologias como Ultraformer 3 e CoolSculpting.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Tricologia",
+            "descricao": "Queda e afinamento dos fios tratados com laser Ultra 1927 nm, mesoterapia capilar, laser de baixa potência, vapor de ozônio ou microagulhamento, conforme a causa.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Íntimo",
+            "descricao": "Laser íntimo Athena, clareamento, remoção de pelos, flacidez, falta de volume e incontinência urinária, num ambiente reservado.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Terapias nutricionais injetáveis",
+            "descricao": "Um segmento à parte do instituto, aplicado com indicação médica.",
+            "icone": "seringa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Os aparelhos que a casa usa",
+        "itens": [
+          {
+            "nome": "Ultraformer 3",
+            "detalhe": "Ultrassom microfocado para firmeza",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "CoolSculpting",
+            "detalhe": "Resfriamento da gordura localizada",
+            "icone": "gota"
+          },
+          {
+            "nome": "Laser Ultra 1927 nm",
+            "detalhe": "Thulium, para pele e couro cabeludo",
+            "icone": "laser"
+          },
+          {
+            "nome": "Acroma 1064 nm",
+            "detalhe": "Nd:YAG",
+            "icone": "laser"
+          },
+          {
+            "nome": "Laser íntimo Athena",
+            "detalhe": "Interno e externo",
+            "icone": "laser"
+          },
+          {
+            "nome": "Luz intensa pulsada",
+            "icone": "sol"
+          },
+          {
+            "nome": "T-Sculptor",
+            "icone": "batimento"
+          },
+          {
+            "nome": "Sculptra, Radiesse e Ellevá X",
+            "detalhe": "Bioestimuladores de colágeno",
+            "icone": "seringa"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/trajetoria.html"
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Quem atende",
+        "itens": [
+          {
+            "nome": "Josy Sasaki",
+            "registro": "CRM/SC 14625 · RQE 12663",
+            "especialidade": "Médica dermatologista · fundadora",
+            "foto": "midia/josy.jpg"
+          },
+          {
+            "nome": "Michele Garcia",
+            "registro": "CRM 18714 · RQE 20161",
+            "especialidade": "Médica dermatologista",
+            "foto": "midia/michele.jpg"
+          },
+          {
+            "nome": "Pedro Benelli",
+            "registro": "CRM-SP 190727",
+            "especialidade": "Médico dermatologista",
+            "foto": "midia/pedro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que dizem os pacientes",
+        "itens": [
+          {
+            "texto": "Atendimento excelente desde o agendamento inicial. As recepcionistas são atenciosas, o ambiente é agradável, limpo e silencioso. O atendimento com a Dra. é detalhado, proporcionando um diagnóstico preciso.",
+            "autor": "Sheila Vieira",
+            "contexto": "Paciente"
+          },
+          {
+            "texto": "Extremamente atenciosa, ela avaliou o meu histórico e realizou uma avaliação detalhada. Senti-me muito segura com o tratamento receitado.",
+            "autor": "Luiza C",
+            "contexto": "Paciente"
+          },
+          {
+            "texto": "Com exames cuidadosos e desenvolvimento de tratamento adequado ao estilo de vida do paciente.",
+            "autor": "Enzo Benedocci",
+            "contexto": "Paciente"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como é começar aqui",
+        "lead": "Do primeiro contato ao retorno, o caminho é o mesmo para quem vem pelo rosto, pelo corpo ou pelos cabelos.",
+        "itens": [
+          {
+            "titulo": "Mensagem no WhatsApp",
+            "texto": "Você diz o que quer cuidar e a recepção encontra um horário.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Consulta com dermatologista",
+            "texto": "Histórico, avaliação detalhada e, quando preciso, exames, antes de qualquer indicação.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Plano de tratamento",
+            "texto": "Quais tecnologias, quantas sessões e em que ritmo, de acordo com a sua rotina.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Retorno",
+            "texto": "Voltar na hora certa é parte do tratamento: é no retorno que o médico confere a resposta e ajusta o plano.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas de quem vem pela primeira vez",
+        "itens": [
+          {
+            "p": "Preciso saber qual tratamento quero?",
+            "r": "Não. Na consulta você conta o que incomoda e o médico indica o que faz sentido para o seu caso."
+          },
+          {
+            "p": "O instituto trata queda de cabelo?",
+            "r": "Sim. A tricologia usa laser Ultra 1927 nm, mesoterapia capilar, laser de baixa potência, vapor de ozônio e microagulhamento, escolhidos conforme a causa da queda."
+          },
+          {
+            "p": "Quem são os médicos?",
+            "r": "Dra. Josy Sasaki, fundadora, Dra. Michele Garcia e Dr. Pedro Benelli, todos dermatologistas."
+          },
+          {
+            "p": "Onde fica?",
+            "r": "Na Rua Presidente Nereu Ramos, 146, 3º andar, no Centro de Florianópolis."
+          },
+          {
+            "p": "Como eu agendo?",
+            "r": "Pelo WhatsApp (48) 98826-6995. A recepção combina o melhor horário."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Centro de Florianópolis, na Presidente Nereu Ramos"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela consulta",
+        "lead": "Mande uma mensagem pelo WhatsApp com a região que você quer cuidar. A recepção marca o seu horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#equipe"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Instituto Josy Sasaki · Dermatologia & Saúde · Florianópolis. Responsável técnica: Dra. Josy Sasaki, CRM/SC 14625, RQE 12663. Resultados variam de paciente para paciente; a indicação de cada procedimento é feita na consulta."
+      }
+    }
+  ]
+}
